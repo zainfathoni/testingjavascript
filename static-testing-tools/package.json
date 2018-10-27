@@ -4,11 +4,13 @@
   "description": "Static Analysis Testing JavaScript Applications",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "format": "prettier --write \"**/*.+(js|json)\""
   },
   "author": "Zain Fathoni <zain.fathoni@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.8.0"
+    "eslint": "^5.8.0",
+    "prettier": "^1.14.3"
   }
 }
