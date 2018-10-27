@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
-    "format": "prettier --write \"**/*.+(js|json)\""
+    "format": "npm run prettier -- --write",
+    "prettier": "prettier \"**/*.+(js|json)\"",
+    "validate": "npm run lint && npm run prettier -- --list-different"
   },
   "author": "Zain Fathoni <zain.fathoni@gmail.com>",
   "license": "MIT",
