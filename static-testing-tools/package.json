@@ -1,0 +1,14 @@
+{
+  "name": "static-testing-tools",
+  "version": "1.0.0",
+  "description": "Static Analysis Testing JavaScript Applications",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "author": "Zain Fathoni <zain.fathoni@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.8.0"
+  }
+}
